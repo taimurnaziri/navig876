@@ -60,6 +60,7 @@ h1.hero-title {
 
 p.hero-subtitle {
     padding: 1.5em 0em !important;
+    font-size: 1.25em;
 }
 
 form input.form-control {
