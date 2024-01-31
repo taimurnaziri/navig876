@@ -24,6 +24,35 @@ html, body{
     border: #000;
 }
 
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.authContainer {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navbar-signup-btn {
+    font-weight: 500;
+    font-size: 0.75em;
+    line-height: .5;
+    height: 1.5em;
+}
+
+a.nav-link.navbar-signin-link {
+    font-weight: 500;
+    font-size: 0.75em;
+    color: #fff;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.navbar-collapse {
+    height: 100vh;
+}
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
@@ -110,6 +139,16 @@ section{
     padding: 1.5em 0em !important;
 }
 
+.section-cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-cta-container a.checkout-our-fleet {
+    color: #000;
+}
+
 section button.btn.btn-dark {
     font-weight: 500 !important;
     margin-top: .5em;
@@ -149,4 +188,34 @@ footer ul li a {
 
 footer .footer-col-title {
     font-weight: 700;
+}
+
+/* Modal Styles */
+.modal-header {
+    border-bottom: none;
+    padding: 1em 1em 0 1em;
+}
+
+.modal-header .btn-close {
+    display: none;
+}
+
+.modal-body {
+    padding-bottom: 0;
+}
+
+.modal-body .disclaimer {
+    font-size: 0.625em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.modal-footer {
+    border: none;
+    padding-top: 0;
+}
+
+.modal-footer .disclaimer {
+    font-size: 0.625em;
+    color: #a9a9a9;
 }
