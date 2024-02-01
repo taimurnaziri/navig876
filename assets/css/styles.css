@@ -31,7 +31,7 @@ html, body{
 .authContainer {
     width: 45%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .navbar .navbar-signup-btn {
